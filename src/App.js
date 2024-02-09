@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Navbar from './components/Navbar';
+import './style.css'
 function App() {
-  return (
-    <div className="App">
-      asdfdsf
-    </div>
-  );
+    return (
+        <div>
+            <Navbar></Navbar>
+        </div>
+    )
 }
-
 export default App;
